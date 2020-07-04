@@ -1,10 +1,10 @@
 function solve(arr) {
 	let n = Number(arr.pop());
 
-	for (let i = 0; i < n; i++) {
+	for (let i = 0; i < n % arr.length; i++) {
 		arr.unshift(arr.pop());
 	}
-	console.log(arr);
+	console.log(arr.join(' '));
 }
 
 solve([ '1', '2', '3', '4', '2' ]);
