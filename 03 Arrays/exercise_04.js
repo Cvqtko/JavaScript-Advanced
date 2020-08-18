@@ -16,4 +16,5 @@ function solve(n,k) {
 	console.log(arrSequense.join(' '));
 }
 
+solve(6, 3);
 solve(8, 2);
