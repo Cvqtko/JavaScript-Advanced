@@ -9,3 +9,4 @@ function solve(arr) {
 
 solve([ '1', '2', '3', '4', '2' ]);
 solve([ 'Banana', 'Orange', 'Coconut', 'Apple', '15' ]);
+solve([ 'Apple', 'Banana', 'Coconut', 'Orange', '15' ]);
