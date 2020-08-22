@@ -17,5 +17,5 @@ function makeValueRow(obj) {  };
 function escapeHtml(value) {  };
 
 console.log(outputArr.join('\n'));
-
+console.log(outputArr.join('\n'));
 }
