@@ -4,6 +4,7 @@ function solve(fruit, weightInGrams, price) {
 
 	const totalPrice = weightInKilos * price;
 
+//	second solution
 //	console.log('I need $' + totalPrice.toFixed(2) + ' to buy '
 //			+ weightInKilos.toFixed(2) + ' kilograms ' + fruit + '.')
 
