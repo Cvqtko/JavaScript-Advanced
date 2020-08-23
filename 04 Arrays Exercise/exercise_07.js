@@ -22,3 +22,4 @@ function magicMatrix(matrix) {
 console.log(magicMatrix([ [ 4, 5, 6 ], [ 6, 5, 4 ], [ 5, 5, 5 ] ]));
 console.log(magicMatrix([ [ 11, 32, 45 ], [ 21, 0, 1 ], [ 21, 1, 1 ] ]));
 console.log(magicMatrix([ [ 1, 0, 0 ], [ 0, 0, 1 ], [ 0, 1, 0 ] ]));
+console.log(magicMatrix([ [ 4 ]]));
