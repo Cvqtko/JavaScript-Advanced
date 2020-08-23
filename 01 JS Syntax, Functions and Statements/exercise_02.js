@@ -28,3 +28,5 @@ function solve(num1, num2, operator) {
 }
 
 solve(2, 4, "**");
+solve(5, 6, '+');
+solve(3, 5.5, '*');

@@ -8,4 +8,5 @@ function solve(n, m) {
 	return result;
 }
 
+console.log(solve('1', '5'));
 console.log(solve('-8', '20'));

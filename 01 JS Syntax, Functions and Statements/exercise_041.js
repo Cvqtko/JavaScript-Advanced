@@ -10,4 +10,5 @@ function solve() {
 	console.log("The largest number is " + max);
 }
 
-solve(-3, -5, -22.5, 10);
+solve(5, -3, 16);
+solve(-3, -5, -22.5);
