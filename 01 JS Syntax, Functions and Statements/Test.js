@@ -1,5 +1,3 @@
-const test = 1;
+let numbers = [ '1', '2', 10, "three" ];
 
-test = 2;
-
-console.log(test);
+console.log(numbers);
