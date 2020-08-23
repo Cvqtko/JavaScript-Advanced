@@ -17,5 +17,7 @@ function solve2(text) {
 }
 
 solve('Hi, how are you?');
+solve('hello');
 
 solve2('Hi, how are you?');
+solve2('hello');
