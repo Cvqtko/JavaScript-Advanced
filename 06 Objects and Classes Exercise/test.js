@@ -1,13 +1,6 @@
-function solve() {
-	var list = {
-		"aou" : 100,
-		"me" : 75,
-		"foo" : 116,
-		"bar" : 15,
-	};
-	keysSorted = Object.keys(list).sort(function(a, b) {
-		return list[a] - list[b]
-	})
-	console.log(keysSorted);
-}
-solve();
+let x = { name: "John" };
+let y = {...x};
+y.name = "Pesho";
+
+console.log(x.name);
+console.log(y.name);

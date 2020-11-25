@@ -1,7 +1,6 @@
-var fruits = ['Apple','banana'];
+let x = {name : "John"};
+let y = x;
+y.name = "Pesho";
 
-fruits.forEach(function(item, index, array) {
-	console.log(item, index)
-})
-// Apple 0
-// Banana 1
+console.log(x.name);
+console.log(y.name);
