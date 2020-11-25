@@ -1,21 +1,23 @@
-function JsonToHtmlTable(json) {
+function JsonToHtmlTable(json) {
+  let arr = JSON.parse(json);
+  let outputArr = ["<table>"];
 
-let arr = JSON.parse(json);
+  outputArr.push(makeKeyRow(arr));
 
-let outputArr = ["<table>"];
+  arr.forEach((obj) => outputArr.push(makeValueRow(obj)));
 
-outputArr.push(makeKeyRow(arr));
+  outputArr.push("</table>"); 
 
-arr.forEach((obj) => outputArr.push(makeValueRow(obj)));
+  function makeKeyRow(arr) {
+  	return '<tr><th>Name</th><th>Price</th></tr>';
+  };
+  
+  function makeValueRow(obj) { 
+	return `<tr><td>${obj.Name}</td><td>${obj.Price}</td></tr>`;
+  };
 
-outputArr.push("</table>");
-
-function makeKeyRow(arr) {   }
-
-function makeValueRow(obj) {  };
-
-function escapeHtml(value) {  };
-
-console.log(outputArr.join('\n'));
-console.log(outputArr.join('\n'));
+  console.log(outputArr.join('\n'));
 }
+
+
+JsonToHtmlTable(['[{"Name":"Tomatoes & Chips","Price":2.35},{"Name":"J&B Chocolate","Price":0.96}]']);
