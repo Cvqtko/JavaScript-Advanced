@@ -14,5 +14,3 @@ function solve(input) {
 	console.log(myData);
 	console.log(myData.response);
 }
-
-solve();
