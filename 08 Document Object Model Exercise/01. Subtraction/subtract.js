@@ -6,4 +6,5 @@ function subtract() {
    
    let div = document.getElementById('result');
    div.innerText = result;
+
 }
